@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ horse }}</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>
+    {% set file_name = 'image/' + horse + '.jpg' %}
+    <img src="{{ url_for('static', filename=file_name) }}">
+
+<body>
+    <br>
+    <br>
+    <table border= "1">
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>{{ horse }}</td>
+            </tr>
+            <tr>
+                <td>Farm</td>
+                <td>{{ farm[0].rstrip() }}</td>
+            </tr>
+            <tr>
+                <td>Birth</td>
+                <td>{{ birth[0].rstrip() }}</td>
+            </tr>
+            <tr>
+                <td>Dead</td>
+                <td>{{ dead[0].rstrip() }}</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>{{ gender[0].rstrip() }}</td>
+            </tr>
+            <tr>
+                <td>Sire</td>
+                <td>{{ sire[0].rstrip() }}</td>
+            </tr>
+            <tr>
+                <td>Dam</td>
+                <td>{{ dam[0].rstrip() }}</td>
+            </tr>
+            <tr>
+                <td>Record</td>
+                <td>{{ record[0].rstrip() }} (Total_Win)</td>
+            </tr>
+            <tr>
+                <td>Earned</td>
+                <td>{{ earned }} Yen</td>
+            </tr>
+            <tr>
+                <td>Won Match</td>
+                <td>
+                    <table>
+                        <thead>
+                            <th>Race</th>
+                            <th>Year</th>
+                        </thead>
+                        <tbody>
+                            {% for race in win %}
+                            <tr>
+                                <td title = "At {{ race[2] }}, Grade : {{ race[3] }}, Distance : {{ race[4] }}, Prize : {{ race[5] }}Yen" style="cursor:pointer">{{ race[0] }}</td>
+                                <td>{{ race[1] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>To get Race Information, Hover your mouse cursor on the race name</p>
+
+    <br><br><br>
+    <form action='/horses'>
+        <input type="submit" value="Back to Horse List">
+    </form>
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+
+</body>
+</html>

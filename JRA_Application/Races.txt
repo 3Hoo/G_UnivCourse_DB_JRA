@@ -1,0 +1,38 @@
+Hanshin Daishoten	G2	Hanshin	Turf	3000m	65000000 
+Tulip Sho	G2	Hanshin	Turf	1600m	52000000 
+Tulip Sho	G3	Hanshin	Turf	1600m	52000000 
+Takarazuka Kinen	G1	Hanshin	Turf	2200m	150000000 
+Kikka Sho	G1	Kyoto	Turf	3000m	120000000 
+Kinko Sho	G2	Chukyo	Turf	2000m	62000000 
+Kisaragi Sho	G3	Chukyo	Turf	2000m	38000000 
+Kisaragi Sho	G3	Kyoto	Turf	2000m	38000000 
+Tenno Sho (Spring)	G1	Kyoto	Turf	3200m	150000000 
+Tenno Sho (Fall)	G1	Tokyo	Turf	2000m	150000000 
+Japan Cup	G1	Tokyo	Turf	2400m	300000000 
+Japanese Oaks	G1	Tokyo	Turf	2400m	97000000 
+Japanese Derby	G1	Tokyo	Turf	2400m	200000000 
+All Comers	G3	Nakayama	Turf	2200m	67000000 
+All Comers	G2	Nakayama	Turf	2200m	67000000 
+Osaka Hai	G2	Hanshin	Turf	2000m	135000000 
+Osaka Hai	G1	Hanshin	Turf	2000m	135000000 
+Yayoi Sho	G2	Nakayama	Turf	2000m	52000000 
+Yayoi Sho	G3	Nakayama	Turf	2000m	52000000 
+American Jockey Club Cup	G2	Nakayama	Turf	2200m	62000000 
+Arima Kinen	G1	Nakayama	Turf	2500m	300000000 
+St Lite Kinen	G2	Nakayama	Turf	2200m	52000000 
+Sapporo Kinen	G2	Sapporo	Turf	2000m	70000000 
+Sankei Osaka Hai	G2	Hanshin	Turf	2000m	62000000 
+Satsuki Sho	G1	Nakayama	Turf	2000m	184700000 
+Mermaid Stakes	G3	Hanshin	Handicap/Turf	2000m	36000000 
+Mainichi Okan	G2	Tokyo	Turf	1800m	67000000 
+Radio Tampa Hai Sansai Stakes	G3	Hanshin	Turf	2000m	32000000 
+Radio Nikkei Sho	G3	Fukushima	Handicap/Turf	1800m	38000000 
+Tanabata Sho	G3	Fukushima	Handicap/Turf	2000m	41000000 
+Nikkei Sho	G2	Nakayama	Turf	2500m	67000000 
+Nakayama Kinen	G1	Nakayama	Turf	2000m	110000000 
+Nakayama Kinen	G2	Nakayama	Turf	1800m	67000000 
+Kyoto Shimbun Hai	G2	Kyoto	Turf	2200m	54000000 
+Kyoto Daishoten	G2	Kyoto	Turf	2400m	67000000 
+Kyodo News Service Hai 	G3	Tokyo	Turf	1800m	38000000 
+Kokura Daishoten	G3	Kokura	Turf	1800m	41000000 
+Kobe Shimbun Hai	G2	Hanshin	Turf	2400m	54000000 

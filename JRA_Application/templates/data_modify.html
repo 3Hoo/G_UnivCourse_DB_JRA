@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Modifiy Page</title>
+</head>
+
+<body>
+    <h3>Select your job</h3>
+    <br><br>
+    <form action="/register" method="POST">
+        <input type="hidden" name = "job_type" value="insert">
+        <input type="submit" id="insert" name = "type_value" value = "INSERT"><br>
+    </form>
+
+    <form action="/register" method="POST">
+        <input type="hidden" name = "job_type" value="delete">
+        <input type="submit" id="delete" name = "type_value" value = "DELETE"><br>
+    </form>
+
+    <form action="/register" method="POST">
+        <input type="hidden" name = "job_type" value="update">
+        <input type="submit" id="insert" name = "type_value" value = "UPDATE"><br>
+    </form>
+
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+
+</body>

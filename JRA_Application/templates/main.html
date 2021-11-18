@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JRA_DB_Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>
+
+<body>
+
+    <!--<h3>Hello {{ id }}!</h3>-->
+    <h3>Hello!</h3>
+
+<form action="/horses", methods = "GET">
+    <input type="submit" value="Horse List">
+</form>
+
+<br>
+<br>
+
+<form action="/racecourses", methods = "GET">
+    <input type="submit" value="Race Course List">
+</form>
+
+<br>
+<br>
+
+<form action="/races", methods = "GET">
+    <input type="submit" value="Race List">
+</form>
+
+<br>
+<br>
+
+
+<form action="/farms", methods = "GET">
+    <input type="submit" value="Farm List">
+</form>
+
+<br>
+<br>
+
+<form action='/data_modify', methods = "POST">
+    <label for="user_pwd">Password for modify data :</label><br>
+    <input id="user_pwd" type="text" name="password" value="">
+
+    <input type="submit" value="Login as Admin">
+</form>
+
+</body>
+
+</html>

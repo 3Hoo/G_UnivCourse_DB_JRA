@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Racecourse List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+    <script type="text/javascript" language="javascript">
+        function showPop() 
+        {
+            window.open("/racecourse_popup", "racecourse_info", "width=570, height=1020, resizable = yes, scrollbars = yes");
+            
+            alert(formData)
+            formData.target = "racecourse_info"
+            formData.action = "/racecourse_popup"
+            formData.submit();
+        }
+    </script>
+</head>
+
+<body>
+    <h3>Racecourse List</h3>
+
+    <table border="1">
+        <thead>
+            <th>Racecourse</th>
+            <th>Location</th>
+            <th>Established Year</th>
+        </thead>
+
+        <tbody>
+            {% for racecourse in racecourses_info %}
+            <tr>
+                <form action='/racecourse_popup' method="POST">
+                    <input type="hidden" name = "formData" value="{{ racecourse[0] }}">
+                    <td><input type = "submit" value = "{{ racecourse[0] }}"></td>
+                </form>
+                <td>{{ racecourse[1] }}</td>
+                <td>{{ racecourse[2] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+</body>
+
+</html>

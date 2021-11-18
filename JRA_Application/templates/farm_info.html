@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ farm }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>    
+
+<body>
+    <h1>{{ farm }}</h1>
+    <br><br><br>
+    <h4>Location : {{ location[0] }}</h4>
+    <br><br><br>
+    <h4>Horses from this farm</h4>
+    <table border = "1">
+        {%for horse in horses %}
+        <tr>
+            <td>{{ horse }}</td>
+            <form action='/horse_info' method="POST">
+                <input type="hidden" name="horse" value="{{ horse }}">
+                <td><input type="submit" value="more info"></td>
+            </form>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br><br><br>
+    <form action='/farms'>
+        <input type="submit" value="Back to Farm List">
+    </form>
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+</body>
+
+</html>

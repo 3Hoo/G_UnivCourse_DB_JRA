@@ -1,0 +1,10 @@
+Tokyo	Japan 183-0024 Tokyo, Fuchu, Hiyoshicho, １−1	1933
+Kyoto	612-8265 Kyoto, Fushimi Ward, Yoshijima Watashibajimacho, 32	1925
+Nakayama	1 Chome-1-1 Kosaku, Funabashi, Chiba 273-0037 Japan	1907
+Hanshin	1-1 Komanocho, Takarazuka, Hyogo 665-0053 Japan	1949
+Sapporo	16 Chome-1-1 Kita 16 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0016 Japan	1907
+Hakodate	12-2 Komabacho, Hakodate, Hokkaido 042-0935 Japan	1896
+Fukushima	9-23 Matsunamicho, Fukushima, 960-8114 Japan	1918
+Niigata	3490 Sasayama, Kita Ward, Niigata, 950-3301 Japan	1965
+Chukyo	Shikita-1225 Magomecho, Toyoake, Aichi 470-1132 Japan	1994
+Kokura	4 Chome-5-1 Kitagata, Kokuraminami Ward, Kitakyushu, Fukuoka 802-0841 Japan	1994

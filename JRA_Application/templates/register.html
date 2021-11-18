@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>
+
+<body>
+    {% if job_type == "insert" %}
+        <form action="/register_progress" method = "POST">
+            <input type="hidden" name = "job_type" value="insert_farm">
+            <h3>Farm</h3>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Farm Name</td>
+                        <td><input type="text" name="farm_name" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td><input type="text" name="farm_location" value=""></td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+        
+        <form action="/register_progress" method = "POST">
+            <input type="hidden" name = "job_type" value="insert_horse">
+            <h3>Horse</h3>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Horse Image<br>(Only .jpg & File name should be same as Horse name)</td>
+                        <td><input type="file" name="horse_image"></td>
+                    </tr>
+                    <tr>
+                        <td>Horse Name</td>
+                        <td><input type="text" name="horse_name" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Farm</td>
+                        <td><input type="text" name="horse_farm" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Birth</td>
+                        <td><input type="text" name="horse_birth" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Death</td>
+                        <td><input type="text" name="horse_death" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="text" name="horse_gender" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sire</td>
+                        <td><input type="text" name="horse_sire" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Dam</td>
+                        <td><input type="text" name="horse_dam" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Record</td>
+                        <td><input type="text" name="horse_record" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Earnings</td>
+                        <td><input type="text" name="horse_earnings" value=""></td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+
+        <form action="/register_progress" method = "POST">
+            <input type="hidden" name = "job_type" value="insert_win">
+            <h3>Major Win</h3>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Horse</td>
+                        <td><input type="text" name="win_horse" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Title</td>
+                        <td><input type="text" name="win_title" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Grade</td>
+                        <td><input type="text" name="win_grade" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Racecourse</td>
+                        <td><input type="text" name="win_racecourse" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Year</td>
+                        <td><input type="text" name="win_year" value=""></td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+
+    {% elif job_type == "delete" %}
+        <form action="/register_progress" method = "POST">
+            <input type="hidden" name = "job_type" value="delete_farm">
+            <h3>Farm</h3>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Farm Name</td>
+                        <td><input type="text" name="farm_name" value=""></td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+        
+        <form action="/register_progress" method = "POST">
+            <input type="hidden" name = "job_type" value="delete_horse">
+            <h3>Horse</h3>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Horse Name</td>
+                        <td><input type="text" name="horse_name" value=""></td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+
+    {% elif job_type == "update" %}
+        <form action="/register_progress" method = "POST">
+            <input type="hidden" name = "job_type" value="update_horse">
+            <h3>Horse</h3>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td>Horse Name</td>
+                        <td><input type="text" name="horse_name" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>New Death</td>
+                        <td><input type="text" name="horse_death" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>New Record</td>
+                        <td><input type="text" name="horse_record" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>New Earnings</td>
+                        <td><input type="text" name="horse_earnings" value=""></td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" value="Submit"><br><br>
+        </form>
+        
+
+    {% endif %}
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+</body>

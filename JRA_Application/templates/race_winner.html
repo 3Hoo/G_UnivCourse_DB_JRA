@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ race_name }}  Winners</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>    
+
+<body>
+    <h3>{{ race_name }} Winners</h3>
+    
+    <table border="1">
+        <thead>
+            <th>Horse</th>
+            <th>Year</th>
+        </thead>
+
+        <tbody>
+            {% for winner in winners %}
+            <tr>
+                <td>{{ winner[0] }}</td>
+                <td>{{ winner[1] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <form action='/races'>
+        <input type="submit" value="Back to Race List">
+    </form>
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+</body>

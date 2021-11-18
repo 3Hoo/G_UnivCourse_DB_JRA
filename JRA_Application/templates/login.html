@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>
+
+<body>
+    <h3>Login</h3>
+    <form action="/main" method="POST">
+        <label for="user_id">ID:</label><br>
+        <input id="user_id" type="text" name="id" value=""><br>
+      
+        <label for="user_pwd">Password:</label><br>
+        <input id="user_pwd" type="text" name="password" value=""><br><br>
+
+        <input type="submit" name="send" value="Login">
+      
+    </form>
+
+    <br><br><br>
+
+    <h3>Register</h3>
+    <form action="/" method="POST">
+        <label for="user_id">ID:</label><br>
+        <input id="user_id" type="text" name="id" value=""><br>
+      
+        <label for="user_pwd">Password:</label><br>
+        <input id="user_pwd" type="text" name="password" value=""><br><br>
+        
+        <input type="hidden" name="login_type" value="register">
+
+        <input type="submit" name="send" value="Register">
+    </form>
+
+    <br><br><br>
+
+    <h3>Update User Info</h3>
+    <form action="/" method="POST">
+        <label for="user_id">ID:</label><br>
+        <input id="user_id" type="text" name="id" value=""><br>
+      
+        <label for="user_pwd">New Password:</label><br>
+        <input id="user_pwd" type="text" name="password" value=""><br><br>
+        
+        <input type="hidden" name="login_type" value="update">
+
+        <input type="submit" name="send" value="Update">
+      
+    </form>
+
+    <h3>Delete User Info</h3>
+    <form action="/" method="POST">
+        <label for="user_id">ID:</label><br>
+        <input id="user_id" type="text" name="id" value=""><br>
+        
+        <input type="hidden" name="login_type" value="delete">
+
+        <input type="submit" name="send" value="Delete">
+      
+    </form>
+     
+</body>

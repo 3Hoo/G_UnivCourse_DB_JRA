@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Race List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>    
+
+<body>
+    <h3>Race List</h3>
+
+    <table border="1">
+        <thead>
+            <th>Title</th>
+            <th>Grade</th>
+            <th>Racecourse</th>
+            <th>Track Type</th>
+            <th>Distance</th>
+            <th>1st Prize</th>
+            <th>Who won this race?</th>
+        </thead>
+
+        <tbody>
+            {% for race in races_info %}
+            <tr>
+                <td>{{ race[0] }}</td>
+                <td>{{ race[1] }}</td>
+                <td>{{ race[2] }}</td>
+                <td>{{ race[3] }}</td>
+                <td>{{ race[4] }}</td>
+                <td>{{ race[5] }} Yen</td>
+                <form action='/race_winner' method="POST">
+                    <input type="hidden" name="race" value="{{ race[0] }}">
+                    <td><input type="submit" value="more info"></td>
+                </form>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+</body>

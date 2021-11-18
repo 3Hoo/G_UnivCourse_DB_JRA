@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horse List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+</head>    
+
+<body>
+    <h3>Horse List</h3>
+
+    
+    <table border = "1">
+        <thead>
+            <th>Name</th>
+        </thead>
+
+        <tbody>
+            {% for horse in horses_info %}
+            <tr>
+                <td>{{ horse[0] }}</td>
+
+                <form action='/horse_info' method="POST">
+                    <input type="hidden" name="horse" value="{{ horse[0] }}">
+                    <td><input type="submit" value="more info"></td>
+                </form>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>  
+    
+    <br><br><br>
+    <form action='/main'>
+        <input type="submit" value="Back to Main Page">
+    </form>
+
+</body>
+
+</html>

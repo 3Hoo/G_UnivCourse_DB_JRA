@@ -1,0 +1,66 @@
+Agnes Tachyon	Yayoi Sho	G2	Nakayama	2001
+Special Week	Yayoi Sho	G2	Nakayama	1998
+Symboli Rudolf	Yayoi Sho	G3	Nakayama	1984
+Air Groove	Tulip Sho	G3	Hanshin	1996
+Gold Ship	Tenno Sho (Spring)	G1	Kyoto	2015
+Mejiro McQueen	Tenno Sho (Spring)	G1	Kyoto	1991
+Mejiro McQueen	Tenno Sho (Spring)	G1	Kyoto	1992
+Rice Shower	Tenno Sho (Spring)	G1	Kyoto	1993
+Rice Shower	Tenno Sho (Spring)	G1	Kyoto	1995
+Special Week	Tenno Sho (Spring)	G1	Kyoto	1999
+Symboli Rudolf	Tenno Sho (Spring)	G1	Kyoto	1985
+Air Groove	Tenno Sho (Fall)	G1	Tokyo	1997
+Special Week	Tenno Sho (Fall)	G1	Tokyo	1999
+Twin Turbo	Tanabata Sho	G3	Fukushima	1993
+Gold Ship	Takarazuka Kinen	G1	Hanshin	2013
+Gold Ship	Takarazuka Kinen	G1	Hanshin	2014
+Mejiro McQueen	Takarazuka Kinen	G1	Hanshin	1993
+Silence Suzuka	Takarazuka Kinen	G1	Hanshin	1998
+Symboli Rudolf	St Lite Kinen	G2	Nakayama	1984
+Agnes Tachyon	Satsuki Sho	G1	Nakayama	2001
+Gold Ship	Satsuki Sho	G1	Nakayama	2012
+Symboli Rudolf	Satsuki Sho	G1	Nakayama	1984
+Tokai Teio	Satsuki Sho	G1	Nakayama	1991
+Air Groove	Sapporo Kinen	G2	Sapporo	1997
+Air Groove	Sapporo Kinen	G2	Sapporo	1998
+Mejiro McQueen	Sankei Osaka Hai	G2	Hanshin	1993
+Agnes Tachyon	Radio Tampa Hai Sansai Stakes	G3	Hanshin	2000
+Twin Turbo	Radio Nikkei Sho	G3	Fukushima	1991
+Air Groove	Osaka Hai	G2	Hanshin	1998
+Tokai Teio	Osaka Hai	G2	Hanshin	1992
+Rice Shower	Nikkei Sho	G2	Nakayama	1993
+Symboli Rudolf	Nikkei Sho	G2	Nakayama	1985
+Silence Suzuka	Nakayama Kinen	G2	Nakayama	1998
+Air Groove	Mermaid Stakes	G3	Hanshin	1997
+Silence Suzuka	Mainichi Okan	G2	Tokyo	1998
+Special Week	Kyoto Shimbun Hai	G2	Kyoto	1998
+Mejiro McQueen	Kyoto Daishoten	G2	Kyoto	1991
+Mejiro McQueen	Kyoto Daishoten	G2	Kyoto	1993
+Gold Ship	Kyodo News Service Hai 	G3	Tokyo	2012
+Silence Suzuka	Kokura Daishoten	G3	Kokura	1998
+Gold Ship	Kobe Shimbun Hai	G2	Hanshin	2012
+Special Week	Kisaragi Sho	G3	Kyoto	1998
+Silence Suzuka	Kinko Sho	G2	Chukyo	1998
+Gold Ship	Kikka Sho	G1	Kyoto	2012
+Mejiro McQueen	Kikka Sho	G1	Kyoto	1990
+Rice Shower	Kikka Sho	G1	Kyoto	1992
+Symboli Rudolf	Kikka Sho	G1	Kyoto	1984
+Air Groove	Japanese Oaks	G1	Tokyo	1996
+Special Week	Japanese Derby	G1	Tokyo	1998
+Symboli Rudolf	Japanese Derby	G1	Tokyo	1984
+Tokai Teio	Japanese Derby	G1	Tokyo	1991
+Special Week	Japan Cup	G1	Tokyo	1999
+Symboli Rudolf	Japan Cup	G1	Tokyo	1985
+Tokai Teio	Japan Cup	G1	Tokyo	1992
+Gold Ship	Hanshin Daishoten	G2	Hanshin	2013
+Gold Ship	Hanshin Daishoten	G2	Hanshin	2014
+Gold Ship	Hanshin Daishoten	G2	Hanshin	2015
+Mejiro McQueen	Hanshin Daishoten	G2	Hanshin	1991
+Mejiro McQueen	Hanshin Daishoten	G2	Hanshin	1992
+Special Week	Hanshin Daishoten	G2	Hanshin	1999
+Gold Ship	Arima Kinen	G1	Nakayama	2012
+Symboli Rudolf	Arima Kinen	G1	Nakayama	1984
+Symboli Rudolf	Arima Kinen	G1	Nakayama	1985
+Tokai Teio	Arima Kinen	G1	Nakayama	1993
+Special Week	American Jockey Club Cup	G2	Nakayama	1999
+Twin Turbo	All Comers	G3	Nakayama	1993
